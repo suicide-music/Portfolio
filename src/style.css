@@ -34,8 +34,10 @@ footer {
   padding-bottom: 30px;
 }
 
-.skills {
+div.skills {
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .icons {
@@ -93,4 +95,10 @@ p.about {
 .hello {
   font-size: 36px;
   font-weight: 700;
+}
+
+i.skills {
+  list-style: none;
+  font-size: 50px;
+  padding: 50px;
 }
