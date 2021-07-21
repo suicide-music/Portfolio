@@ -1,12 +1,64 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --backround-color: #f9f7fe;
+  --primary-color: #6c63ff;
+}
+
 body {
-  background-color: blueviolet;
-  font-family: "Playfair Display", serif;
+  font-family: var(--default-font-family);
 }
 
-h2 {
-  font-family: "Playfair Display", serif;
-}
-
+h1,
+h2,
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family);
+}
+
+footer {
+  text-align: end;
+  padding: 30px 50px;
+}
+
+.viktorija-picture {
+  border-radius: 50%;
+  width: 300px;
+  padding-bottom: 30px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.icons {
+  font-size: 30px;
+  margin-top: 30px;
+  background-color: brown;
+}
+
+.hero-extra {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.hero {
+  padding-top: 40px;
+}
+
+.certifications {
+  text-align: center;
+}
+
+.container {
+  background-color: var(--backround-color);
+  max-width: 100%;
+}
+
+p.about {
+  padding-top: 20px;
+}
+.icon {
+  background-color: blue;
+  margin: 0 auto;
 }
