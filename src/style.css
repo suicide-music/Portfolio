@@ -61,6 +61,8 @@ div.skills {
 .certifications {
   text-align: center;
   background-color: var(--backround-color);
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .container {
@@ -107,7 +109,12 @@ i.skills {
 .certification-button {
   border: 2px solid var(--font-color);
   margin: 20px;
+  margin-top: 50px;
 }
 .certification-button:hover {
   text-decoration: underline;
+}
+
+footer a {
+  color: var(--font-color);
 }
