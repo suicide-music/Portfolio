@@ -119,14 +119,39 @@ footer a {
   color: var(--font-color);
 }
 
-.skills {
-  padding: 300px;
-}
-
 a {
   color: var(--font-color);
 }
 
 a:hover {
   color: var(--primary-color);
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 1300px) {
+  .skills {
+    padding: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .hero-extra.col-5 {
+    width: 100%;
+  }
+  .hero.col-7 {
+    width: 100%;
+    text-align: center;
+  }
+  .about.col-8 {
+    margin: 0 auto;
+    padding: 35px;
+  }
 }
