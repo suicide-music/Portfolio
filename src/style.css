@@ -118,3 +118,7 @@ i.skills {
 footer a {
   color: var(--font-color);
 }
+
+.skills {
+  padding: 300px;
+}
