@@ -126,6 +126,9 @@ a {
 a:hover {
   color: var(--primary-color);
 }
+.row {
+  --bs-gutter-x: 0;
+}
 
 @media (max-width: 1100px) {
   .container {
@@ -139,10 +142,40 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+  .row {
+    --bs-gutter-x: 0;
+  }
   h1 {
     font-size: 50px;
   }
 
+  .hero-extra.col-5 {
+    width: 100%;
+  }
+  .hero.col-7 {
+    width: 100%;
+    text-align: center;
+  }
+  .about.col-8 {
+    margin: 0 auto;
+    padding: 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  .row {
+    --bs-gutter-x: 0;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p.about {
+    font-size: 15px;
+  }
+
+  p.hello {
+    font-size: 20px;
+  }
   .hero-extra.col-5 {
     width: 100%;
   }
