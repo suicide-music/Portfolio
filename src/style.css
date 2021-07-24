@@ -28,6 +28,19 @@ footer {
   padding: 30px 50px;
 }
 
+nav li {
+  list-style: none;
+  display: inline;
+  margin: 20px;
+}
+
+nav ul {
+  margin: 25px;
+}
+
+nav li a {
+  text-decoration: none;
+}
 .viktorija-picture {
   border-radius: 50%;
   width: 300px;
