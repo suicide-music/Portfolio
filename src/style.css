@@ -130,16 +130,19 @@ i.skills {
 }
 
 .contact-body {
+  display: block;
+  margin: 100px auto;
   text-align: center;
   border: 1px solid var(--font-color);
-  padding: 0;
+  padding: 40px;
   background-color: var(--backround-color);
-  margin: 75px 325px;
+  border-radius: 3px;
+  max-width: 700px;
 }
-.contact-body h1 {
+.contact-body p {
   padding-top: 15px;
+  font-size: 20px;
 }
-
 footer a {
   color: var(--font-color);
 }
