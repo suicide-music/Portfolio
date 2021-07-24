@@ -172,7 +172,7 @@ a:hover {
   }
   .about.col-8 {
     margin: 0 auto;
-    padding: 35px;
+    padding: 15px 0px;
   }
 }
 
@@ -200,7 +200,8 @@ a:hover {
   }
   .about.col-8 {
     margin: 0 auto;
-    padding: 35px;
+
+    padding: 15px 0px;
   }
   .col-4 {
     width: 100%;
