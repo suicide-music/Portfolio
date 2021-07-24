@@ -36,6 +36,7 @@ nav li {
 
 nav ul {
   margin: 25px;
+  text-align: right;
 }
 
 nav li a {
@@ -175,7 +176,7 @@ a:hover {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
   .row {
     --bs-gutter-x: 0;
     display: block;
@@ -203,5 +204,17 @@ a:hover {
   }
   .col-4 {
     width: 100%;
+  }
+  nav li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  nav ul {
+    margin: 25px;
+    text-align: center;
+    padding: 0;
   }
 }
