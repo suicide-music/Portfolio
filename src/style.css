@@ -168,6 +168,14 @@ a:hover {
   background-color: white;
 }
 
+.projects h2 {
+  font-family: var(--default-font-family);
+}
+
+.project-body {
+  padding: 50px;
+}
+
 @media (max-width: 1100px) {
   .container {
     padding-bottom: 40px;
