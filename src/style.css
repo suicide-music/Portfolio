@@ -260,4 +260,16 @@ a:hover {
   .contact-body {
     margin-top: 50px;
   }
+
+  .project-image {
+    padding: 0;
+  }
+  .description {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .project-button {
+    display: block;
+  }
 }
