@@ -29,14 +29,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Check the latest Viktorija's projects. The section presents a description, screenshot and a link to Viktorija's projects"
+    />
+    <title>Viktorija's Projects</title>
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="/" title="Homepage" id="first-section">Home</a></li>
         <li>
-          <a href="/projects.html" title="Viktorija's Projects">Projects</a>
+          <a href="/projects.html" title="Viktorija's Projects" class="active">
+            Projects</a
+          >
         </li>
         <li>
           <a href="/contact.html" title="Contact Viktorija">Contact me</a>
@@ -57,6 +63,7 @@
             href="https://tinkapin-shop.netlify.app/"
             class="btn main-button project-button"
             target="_blank"
+            title="TinkaPin website"
             >Check TinkaPin</a
           >
         </div>
@@ -65,6 +72,7 @@
             src="/src/images/TinkaPin.png"
             class="img-fluid rounded shadow p-2 d-none d-sm-block"
             width="600"
+            alt="TinkaPin screenshot"
           />
         </div>
       </div>
@@ -74,6 +82,7 @@
             src="/src/images/weather-app.png"
             class="img-fluid rounded shadow p-2 d-none d-sm-block"
             width="600"
+            alt="Weather app screenshot"
           />
         </div>
         <div class="col-6 project-body description">
@@ -88,6 +97,7 @@
             href="https://viktorija-weather-app.netlify.app/"
             target="_blank"
             class="btn main-button project-button"
+            title="Weather app website"
             >Check the weather</a
           >
         </div>
@@ -105,6 +115,7 @@
               href="https://viktorija-lqa.netlify.app/"
               target="_blank"
               class="btn main-button project-button"
+              title="Project Manager website"
               >Check my LQA skills</a
             >
           </div>
@@ -113,6 +124,7 @@
               src="/src/images/PM.png"
               class="img-fluid rounded shadow p-2 d-none d-sm-block"
               width="600"
+              alt="Project Manager website screenshot"
             />
           </div>
         </div>
@@ -124,6 +136,7 @@
             class="img-fluid rounded shadow p-2 d-none d-sm-block"
             width="600"
             target="_blank"
+            alt="Portfolio website screenshot"
           />
         </div>
         <div class="col-6 project-body description">
@@ -134,12 +147,14 @@
             <br />Built with HTML, CSS, Bootstrap in Visual Studio Code and
             compatible with different device sizes.
           </p>
-          <a href="/" class="btn main-button project-button"
+          <a href="/" class="btn main-button project-button" title="Homepage"
             >Jump to Homepage</a
           >
         </div>
       </div>
     </div>
-    <footer><a href="#first-section">^Back to the top</a></footer>
+    <footer>
+      <a href="#first-section" title="To the top">^Back to the top</a>
+    </footer>
   </body>
 </html>

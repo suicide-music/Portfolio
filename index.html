@@ -29,12 +29,16 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Viktorija Koluzajeva is a front end developer and Localisation Project Manager. Check her projects and skills on this website."
+    />
+    <title>Front End Developer - Viktorija Koluzajeva</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="/" title="Homepage">Home</a></li>
+        <li><a href="/" title="Homepage" class="active">Home</a></li>
         <li>
           <a href="/projects.html" title="Viktorija's Projects">Projects</a>
         </li>
@@ -46,13 +50,17 @@
     <div class="container" id="first-section">
       <div class="row">
         <div class="hero-extra col-5">
-          <img src=/src/images/me.jpg class="viktorija-picture img-fluid" />
+          <img src=/src/images/me.jpg class="viktorija-picture img-fluid"
+          alt="Viktorija's picture" />
           <h3>Viktorija Koluzajeva</h3>
           <h5>Front-end developer, based in London</h5>
 
           <ul class="icons">
             <li class="icon">
-              <a href="https://www.instagram.com/suicide_music/" target="_blank"
+              <a
+                href="https://www.instagram.com/suicide_music/"
+                target="_blank"
+                title="Instagram link"
                 ><i class="fab fa-instagram"></i
               ></a>
             </li>
@@ -60,16 +68,22 @@
               <a
                 href="https://www.linkedin.com/in/viktorija-koluzajeva/"
                 target="_blank"
+                title="LinkedIn link"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
             </li>
             <li class="icon">
-              <a href="https://github.com/suicide-music" target="_blank"
+              <a
+                href="https://github.com/suicide-music"
+                target="_blank"
+                title="GitHub link"
                 ><i class="fab fa-github"></i
               ></a>
             </li>
             <li class="icon">
-              <a href="mailto:vika@super.com"
+              <a
+                href="mailto:viktorija.koluzajeva.prof@gmail.com"
+                title="Email Viktorija"
                 ><i class="far fa-envelope"></i
               ></a>
             </li>
@@ -88,7 +102,9 @@
             and JavaScript.
           </p>
 
-          <a href="/projects.html" class="btn main-button">Check my projects</a>
+          <a href="/projects.html" class="btn main-button" title="Projects"
+            >Check my projects</a
+          >
         </div>
       </div>
     </div>
@@ -119,6 +135,7 @@
           https://www.shecodes.io/certificates/29ac4337ca7ea25b9d7a0abc26325128"
           class="btn certification-button"
           target="_blank"
+          title="SheCodes Basic certificate"
           ><i class="fas fa-graduation-cap"></i> SheCodes Basics</a
         >
 
@@ -126,14 +143,20 @@
           href="https://www.shecodes.io/certificates/f5cf7e5addc792acfb6805aff75c4b3d"
           class="btn certification-button"
           target="_blank"
+          title="SheCodes Plus certificate"
           ><i class="fas fa-graduation-cap"></i> SheCodes Plus</a
         >
 
-        <a href="#" class="btn certification-button"
+        <a
+          href="#"
+          title="SheCodes Responsive certificate"
+          class="btn certification-button"
           ><i class="fas fa-graduation-cap"></i> SheCodes Responsive</a
         >
       </div>
-      <footer><a href="#first-section">^Back to the top</a></footer>
+      <footer>
+        <a href="#first-section" title="To the top">^Back to the top</a>
+      </footer>
     </div>
   </body>
 </html>
