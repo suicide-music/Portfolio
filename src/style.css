@@ -234,8 +234,6 @@ a:hover {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-    .all-projects {
-  grid-template-columns: 1fr;
 }
 
 @media (max-width: 410px) {
@@ -298,5 +296,6 @@ a:hover {
     display: block;
   }
   .all-projects {
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
