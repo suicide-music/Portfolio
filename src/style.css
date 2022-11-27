@@ -171,12 +171,32 @@ a:hover {
 .projects h2 {
   font-family: var(--default-font-family);
 }
-
+.all-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .project-body {
   padding: 50px;
 }
+
+.project-img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.my-project {
+  text-align: center;
+  padding: 30px;
+}
+
 .active {
   color: var(--primary-color);
+}
+
+.project-description {
+  padding: 30px;
 }
 
 @media (max-width: 1100px) {
@@ -214,6 +234,8 @@ a:hover {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+    .all-projects {
+  grid-template-columns: 1fr;
 }
 
 @media (max-width: 410px) {
@@ -267,7 +289,7 @@ a:hover {
   .project-image {
     padding: 0;
   }
-  .description {
+  .project-description {
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -275,4 +297,6 @@ a:hover {
   .project-button {
     display: block;
   }
+  .all-projects {
+  grid-template-columns: 1fr;
 }
